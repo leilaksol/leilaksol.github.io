@@ -51,7 +51,7 @@ a:hover {
   color: #f77f00;
 }
 
-nav a {
+.nav a {
   /* padding-left: 20px; */
   display: flex;
   justify-content: space-between;
