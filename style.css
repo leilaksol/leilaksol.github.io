@@ -22,10 +22,10 @@ header {
 }
 
 .nav a {
-  padding-left: 20px; 
-  /* display: flex;
+  /*padding-left: 20px; */
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center; 
 }
 
 /* Containers */
