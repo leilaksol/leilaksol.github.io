@@ -1,4 +1,4 @@
-/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 body {
@@ -8,50 +8,24 @@ body {
   padding: 40px;
 }
 
-/* Set the font family for any h1, h2, or h3 heading */
-h1 {
-  font-family: 'Times New Roman', Courier, monospace , sans-serif;
-  font-size: 48px;
-  color: black;
-
-  text-align: center;
-  line-height: 100%;
-  letter-spacing: 2px;
-  font-style: normal;
-}
-h2 {
-  font-family: 'Times New Roman', Courier, monospace , sans-serif;
-  font-size: 30px;
-  color: black;
-
-  text-align: center;
-  line-height: 100%;
-  letter-spacing: 2px;
-  font-style: normal;
-  
-}
+/* Headings */
+h1,
+h2,
 h3 {
   font-family: "Playfair Display", Times, serif;
-
-  font-size: 22px;
-  color: black;
-
   text-align: center;
-  line-height: 100%;
-  letter-spacing: 2px;
-  font-style: normal;
 }
 
-h4{
-  font-family: "Playfair Display", Times, serif;
+/* Header */
+header {
+  text-align: center;
+}
 
-  font-size: 18px;
-  color: black;
-
-  text-align: right;
-  line-height: 100%;
-  letter-spacing: 2px;
-  font-style: normal;
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
 }
 
 article {
@@ -63,43 +37,45 @@ article div {
   width: 100%;
 }
 
+/* Paragraphs */
 p {
   line-height: 1.5;
 }
 
-/* The div container constrains the content width within the main container to 600px */
-div {
-  margin: auto;
-  width: 600px;
+/* Links */
+a:link {
+  color: #d62828;
 }
 
-a:link{
-  color: #d62828
-}
 a:hover {
-  color: #f77f00
+  color: #f77f00;
 }
 
+nav a {
+  /* padding-left: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Images */
 img {
   width: 100%;
   max-width: 200px;
   height: auto;
 }
 
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
 hr {
   border: 1px solid black;
-}
-
-/* Add your solution below */
-
-.image-circle {
-  border-radius: 50%; 
-  border = 2px
-  border-color: #003049;
-  border-style: solid;
-  border-width: 2px;
-}
-
-footer{
-  text-align: center;
 }
