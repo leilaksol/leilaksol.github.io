@@ -21,6 +21,13 @@ header {
   text-align: center;
 }
 
+.nav a {
+  /* padding-left: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Containers */
 div {
   background-color: #eae2b7;
@@ -51,12 +58,7 @@ a:hover {
   color: #f77f00;
 }
 
-.nav a {
-  /* padding-left: 20px; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 /* Images */
 img {
