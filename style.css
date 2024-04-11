@@ -19,13 +19,17 @@ h3 {
 /* Header */
 header {
   text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex; 
 }
 
 .nav a {
-  /*padding-left: 20px; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center; 
+  padding-left: 20px; 
+
 }
 
 /* Containers */
