@@ -8,24 +8,24 @@ body {
   padding: 40px;
 }
 
+
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Add any additional styling here */
+} 
+  .
 /* Headings */
-h1,
-h2,
-h3 {
+.h1,
+.h2,
+.h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
 
-/* Header */
-header {
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.container {
-  display: flex; 
-}
 
 .nav a {
   padding-left: 20px; 
@@ -33,7 +33,7 @@ header {
 }
 
 /* Containers */
-div {
+.div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
@@ -54,7 +54,7 @@ p {
 }
 
 /* Links */
-a:link {
+.a:link {
   color: #d62828;
 }
 
