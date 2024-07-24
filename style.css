@@ -8,32 +8,26 @@ body {
   padding: 40px;
 }
 
-
-
-/* Header */
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* Add any additional styling here */
-} 
-  .
 /* Headings */
-.h1,
-.h2,
-.h3 {
+h1,
+h2,
+h3 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
 
-
-.nav a {
-  padding-left: 20px; 
-
+/* Header */
+header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  border:0px solid #333;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
 }
 
 /* Containers */
-.div {
+div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
@@ -44,7 +38,7 @@ article {
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
@@ -54,7 +48,7 @@ p {
 }
 
 /* Links */
-.a:link {
+a:link {
   color: #d62828;
 }
 
@@ -62,7 +56,11 @@ a:hover {
   color: #f77f00;
 }
 
+nav a {
+  padding-left: 20px;
+  vertical-align: middle;
 
+}
 
 /* Images */
 img {
@@ -84,4 +82,12 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+#portfolio {
+  display: flex;
+  gap:30px
+}
+#portfolio section {
+  text-align: center;
+  font-size: 14px;
 }
