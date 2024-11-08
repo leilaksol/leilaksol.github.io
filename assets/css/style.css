@@ -370,9 +370,20 @@ h3 {
   background-color: rgba(33, 150, 243, 0.2);
 }
 
-.card {
+/* .card {
   margin-bottom: 60px;
+} */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto 60px auto;
+  padding: 0;
 }
+
+
+
 
 .card .role {
   font-size: 1.25rem;
@@ -400,7 +411,10 @@ h3 {
   /* padding-bottom: 30px; */
   padding: 20px;
   box-sizing: border-box; /* Ensures padding doesn’t affect width */
+  flex-grow: 1;
 }
+
+
 
 .card .card-content p {
   padding: 5px 0 0;
