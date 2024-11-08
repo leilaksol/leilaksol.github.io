@@ -376,9 +376,13 @@ h3 {
 
 .card .role {
   font-size: 1.25rem;
-  position: absolute;
+  /* position: absolute;
   right: 38px;
-  top: 35px;
+  top: 35px; */
+  margin-bottom: 10px; /* Optional: adjust spacing */
+  position: relative; /* Remove or set to relative */
+  right: 0; /* Reset positioning */
+  top: 0;
 }
 
 .card li a {
@@ -393,7 +397,9 @@ h3 {
 }
 
 .card .card-content {
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
+  padding: 20px;
+  box-sizing: border-box; /* Ensures padding doesn’t affect width */
 }
 
 .card .card-content p {
@@ -422,9 +428,16 @@ h3 {
   display: block;
 }
 
+/* #experience .card .col.s12.m2 a img {
+  max-height: 60px;
+} */
+
 #experience .card .col.s12.m2 a img {
   max-height: 60px;
+  max-width: 100%;
+  object-fit: contain; /* Keeps the image aspect ratio */
 }
+
 
 .card-action span {
   font-size: 85%;
