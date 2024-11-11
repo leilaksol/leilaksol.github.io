@@ -143,6 +143,14 @@ a {
   color: #004d40;
 }
 
+
+a .small svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  margin-right: 8px; /* Adjust this if there’s spacing between the icon and text */
+}
+
 /* main blockqoute */
 
 /* blockquote {
