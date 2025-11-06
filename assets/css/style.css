@@ -398,6 +398,18 @@ h3 {
   padding: 0;
 }
 
+/* Projects section card styles */
+#projects .card.large {
+  height: 450px;
+}
+
+#projects .card.large .card-image {
+  height: 280px;
+}
+
+#projects .card.large .card-content {
+  height: auto;
+}
 
 
 
